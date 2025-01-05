@@ -54,7 +54,7 @@ const Navbar = () => {
           } md:top-auto md:left-auto`}
         >
           <ul className='flex flex-col md:flex-row items-center md:gap-6 gap-4 py-4 md:py-0'>
-    <NavLink to={"/"}>
+    <NavLink to={"/HealthHive-Frontend"}>
         <li>Home</li>
       <hr className='border-none outline-none hidden h-0.5 bg-primary w-3/5 mx-auto'/>
       </NavLink>
