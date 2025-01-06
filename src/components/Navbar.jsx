@@ -53,27 +53,40 @@ const Navbar = () => {
             showMenu ? 'top-16 left-0' : 'top-[-500px] left-0'
           } md:top-auto md:left-auto`}
         >
-          <ul className='flex flex-col md:flex-row items-center md:gap-6 gap-4 py-4 md:py-0'>
-    <NavLink to={"/HealthHive-Frontend"}>
-        <li>Home</li>
-      <hr className='border-none outline-none hidden h-0.5 bg-primary w-3/5 mx-auto'/>
-      </NavLink>
+         <ul className="flex flex-col md:flex-row items-center md:gap-6 gap-4 py-4 md:py-0">
+  <NavLink
+    to="/"
+    onClick={() => setShowMenu(false)}
+  >
+    <li>Home</li>
+    <hr className="border-none outline-none hidden h-0.5 bg-primary w-3/5 mx-auto" />
+  </NavLink>
 
+  <NavLink
+    to="/doctor"
+    onClick={() => setShowMenu(false)}
+  >
+    <li>All Doctors</li>
+    <hr className="border-none outline-none hidden h-0.5 bg-primary w-3/5 mx-auto" />
+  </NavLink>
 
+  <NavLink
+    to="/about"
+    onClick={() => setShowMenu(false)}
+  >
+    <li>About</li>
+    <hr className="border-none outline-none hidden h-0.5 bg-primary w-3/5 mx-auto" />
+  </NavLink>
 
-      <NavLink to={"/doctor"}> 
-        <li>All Doctors</li>
-      <hr className='border-none outline-none hidden h-0.5 bg-primary w-3/5 mx-auto'/>
-      </NavLink>
-       <NavLink to={"/about"}>
-        <li>About</li>
-      <hr className='border-none outline-none hidden h-0.5 bg-primary w-3/5 mx-auto'/>
-      </NavLink>
-       <NavLink to={"/contact"}>
-        <li>Contact</li>
-      <hr className='border-none outline-none hidden h-0.5 bg-primary w-3/5 mx-auto'/>
-      </NavLink>
-    </ul>
+  <NavLink
+    to="/contact"
+    onClick={() => setShowMenu(false)}
+  >
+    <li>Contact</li>
+    <hr className="border-none outline-none hidden h-0.5 bg-primary w-3/5 mx-auto" />
+  </NavLink>
+</ul>
+
         </div>
 
         {/* Profile / Login Section */}
