@@ -21,9 +21,8 @@ const Footer = () => {
       </div>
       <div className="md:w-3/12 text-center mt-5 flex flex-col gap-2">
       <h1 className=' font-bold mb-6 text-md'>Get In Touch</h1>
-      <p>+1-212-456-7890</p>
-      <p>greatstackdev@gmail.com</p>
-      
+      <p>+8801833264547</p>
+      <p>ashrafresalat34@gmail.com</p>
       </div>
     </div>
     <hr />

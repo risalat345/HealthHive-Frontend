@@ -16,7 +16,7 @@ const Banner = () => {
             </div>
             {/* right */}
             <div className='md:w-1/3 w-1/2 relative'>
-      <img className=' absolute bottom-0 left-44' src={assets.appointment_img} alt="" />
+      <img className=' absolute bottom-0 md:left-20 left-44' src={assets.appointment_img} alt="" />
             </div>
           </div>
     </div>
