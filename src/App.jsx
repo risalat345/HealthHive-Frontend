@@ -16,7 +16,7 @@ const App = () => {
     <div className='mx-4 sm:mx-[10%]'>
       <Navbar/>
       <Routes>
-        <Route path='/HealthHive-Frontend' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/contact' element={<Contact/>}/>
