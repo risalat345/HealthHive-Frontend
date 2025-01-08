@@ -55,7 +55,7 @@ const Navbar = () => {
         >
          <ul className="flex flex-col md:flex-row items-center md:gap-6 gap-4 py-4 md:py-0">
   <NavLink
-    to="/"
+    to="/HealthHive-Frontend"
     onClick={() => setShowMenu(false)}
   >
     <li>Home</li>
