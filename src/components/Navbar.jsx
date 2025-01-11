@@ -52,10 +52,10 @@ const Navbar = () => {
           className={`flex-col md:flex-row md:flex md:items-center absolute md:static w-full md:w-auto bg-white md:bg-transparent transition-all duration-300 ${
             showMenu ? 'top-16 left-0' : 'top-[-500px] left-0'
           } md:top-auto md:left-auto`}
-        >
+      >
          <ul className="flex flex-col md:flex-row items-center md:gap-6 gap-4 py-4 md:py-0">
   <NavLink
-    to="/HealthHive-Frontend"
+    to="/"
     onClick={() => setShowMenu(false)}
   >
     <li>Home</li>

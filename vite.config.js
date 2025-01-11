@@ -4,5 +4,5 @@ import { ghPages } from 'vite-plugin-gh-pages';
 
 export default defineConfig({
   plugins: [react(), ghPages()],
-  base: '/HealthHive-Frontend/', // Replace with your GitHub repository name
+  base: '/', // Replace with your GitHub repository name
 });
