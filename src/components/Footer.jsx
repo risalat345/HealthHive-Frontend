@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
     </div>
     <hr />
-    <h1 className='text-center text-gray-500 py-3'>Copyright © 2024 GreatStack - All Right Reserved.</h1>
+    <h1 className='text-center text-gray-500 py-3'>Made By Ashraf Uddin</h1>
     </div>
     
   )
